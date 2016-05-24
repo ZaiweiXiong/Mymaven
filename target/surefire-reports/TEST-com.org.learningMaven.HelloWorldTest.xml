@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.org.learningMaven.HelloWorldTest" time="0.664" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.org.learningMaven.HelloWorldTest" time="0.457" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="D:\wrokProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8036796852036888480.tmp"/>
+    <property name="classworlds.conf" value="D:\wrokProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6428230920652558859.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jdk1.8.0_05/bin/../jre/bin/client;C:/Program Files (x86)/Java/jdk1.8.0_05/bin/../jre/bin;C:/Program Files (x86)/Java/jdk1.8.0_05/bin/../jre/lib/i386;C:\Program Files (x86)\Java\jdk1.8.0_05\bin;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\bin;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Tomcat8\apache-tomcat-8.0.32\bin;D:\apache-maven-3.3.9\bin;C:\Users\David\.dnx\bin;D:\David‘s files\eclipse-standard-kepler-withMaven-SR1-win32\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="com.org.learningMaven.HelloWorldTest" name="Login" time="0.03"/>
+  <testcase classname="com.org.learningMaven.HelloWorldTest" name="Login" time="0.006"/>
 </testsuite>

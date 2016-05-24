@@ -6,6 +6,6 @@ public class HelloWorldTest {
 
 	@Test
 	public void Login(){
-		System.out.println("Login testing maven testng and selenim");
+		System.out.println("Login testing maven testng and");
 	}
 }
