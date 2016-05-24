@@ -11,6 +11,6 @@ public class HelloWorldTest {
 		
 		WebDriver driver = new FirefoxDriver ();
 		
-		System.out.println("Login testing maven testng and");
+		System.out.println("Login testing maven testng and selenium webdriver");
 	}   
 }
