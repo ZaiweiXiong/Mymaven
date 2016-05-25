@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.org.learningMaven.HelloWorldTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.535 sec <<< FAILURE!
-Login(com.org.learningMaven.HelloWorldTest)  Time elapsed: 0.01 sec  <<< FAILURE!
-java.lang.NoClassDefFoundError: com/DesiredCapabilitiesBrowser
-	at com.org.learningMaven.HelloWorldTest.Login(HelloWorldTest.java:17)
-Caused by: java.lang.ClassNotFoundException: com.DesiredCapabilitiesBrowser
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 34 more
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.517 sec
