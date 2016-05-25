@@ -11,6 +11,12 @@ public class HelloWorldTest {
 		
 		WebDriver driver = new FirefoxDriver ();
 		
+		driver.get("http://www.google.com");
+		
 		System.out.println("Login testing maven testng and selenium webdriver");
-	}   
+	} 
+	@Test
+	public void test() {
+		System.out.println("123");
+	}
 }
