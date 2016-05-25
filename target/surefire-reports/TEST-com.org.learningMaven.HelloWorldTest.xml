@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.org.learningMaven.HelloWorldTest" time="26.276" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="com.org.learningMaven.HelloWorldTest" time="0.536" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\wrokProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4354824394147218511.tmp"/>
+    <property name="classworlds.conf" value="C:\wrokProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2379957897849484620.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/CA/CA Desktop OTP Client/jre/bin/client;C:/Program Files (x86)/CA/CA Desktop OTP Client/jre/bin;C:/Program Files (x86)/CA/CA Desktop OTP Client/jre/lib/i386;C:\Program Files (x86)\CA\CA Desktop OTP Client\jre\bin;C:\Program Files (x86)\CA\SC\CAWIN\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CA\SC\Csam\SockAdapter\bin;C:\Program Files (x86)\CA\SC\CBB\;C:\Program Files (x86)\CA\DSM\bin;C:\PROGRA~2\CA\SC\CAM\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\CA\SC\Csam\SockAdapter\bin;C:\Program Files (x86)\CA\SC\Csam\SockAdapter\bin64;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\D disk\eclipse-standard-kepler-withMaven-SR1-win32\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,6 +62,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.org.learningMaven.HelloWorldTest" name="Login" time="25.724"/>
+  <testcase classname="com.org.learningMaven.HelloWorldTest" name="Login" time="0.01">
+    <failure message="com/DesiredCapabilitiesBrowser" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/DesiredCapabilitiesBrowser
+	at com.org.learningMaven.HelloWorldTest.Login(HelloWorldTest.java:17)
+Caused by: java.lang.ClassNotFoundException: com.DesiredCapabilitiesBrowser
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 34 more
+</failure>
+  </testcase>
   <testcase classname="com.org.learningMaven.HelloWorldTest" name="test" time="0"/>
 </testsuite>
