@@ -39,7 +39,7 @@
         <artifactId>DesiredCapabilitiesBrowser1</artifactId>
         <version>1.0</version>
         <scope>system</scope>
-        <systemPath>D:/U disk/Automation/lib/selenium/DesiredCapabilitiesBrowser1.jar</systemPath>
+        <systemPath>C:/GitHub/guihub-Zaiweixiong/Mymaven/DesiredCapabilitiesBrowser1.jar</systemPath>
   </dependency>
 
   </dependencies>
