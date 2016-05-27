@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.org.learningMaven.HelloWorldTest" duration-ms="21442" started-at="2016-05-27T02:52:55Z" finished-at="2016-05-27T02:53:16Z">
+  <suite name="com.org.learningMaven.HelloWorldTest" duration-ms="31" started-at="2016-05-27T03:13:48Z" finished-at="2016-05-27T03:13:48Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="21442" started-at="2016-05-27T02:52:55Z" finished-at="2016-05-27T02:53:16Z">
+    <test name="Command line test" duration-ms="31" started-at="2016-05-27T03:13:48Z" finished-at="2016-05-27T03:13:48Z">
       <class name="com.org.learningMaven.HelloWorldTest">
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.org.learningMaven.HelloWorldTest@380fb434]" name="Login" duration-ms="21427" started-at="2016-05-27T10:52:55Z" finished-at="2016-05-27T10:53:16Z">
+        <test-method status="FAIL" signature="Login()[pri:0, instance:com.org.learningMaven.HelloWorldTest@30c7da1e]" name="Login" duration-ms="0" started-at="2016-05-27T11:13:48Z" finished-at="2016-05-27T11:13:48Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/DesiredCapabilitiesBrowser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/DesiredCapabilitiesBrowser
+	at com.org.learningMaven.HelloWorldTest.Login(HelloWorldTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:109)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: java.lang.ClassNotFoundException: com.DesiredCapabilitiesBrowser
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.org.learningMaven.HelloWorldTest@380fb434]" name="test" duration-ms="0" started-at="2016-05-27T10:53:16Z" finished-at="2016-05-27T10:53:16Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.org.learningMaven.HelloWorldTest@30c7da1e]" name="test" duration-ms="0" started-at="2016-05-27T11:13:48Z" finished-at="2016-05-27T11:13:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
