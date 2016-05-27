@@ -2,6 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+	
+	
   <groupId>com.org.learningMaven</groupId>
   <artifactId>Mymaven</artifactId>
   <version>1-SNAPSHOT</version>
@@ -12,6 +14,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <main.basedir>${project.based}</main.basedir>
   </properties>
 
   <dependencies>
@@ -39,8 +42,9 @@
         <artifactId>DesiredCapabilitiesBrowser1</artifactId>
         <version>1.0</version>
         <scope>system</scope>
-        <systemPath>C:/GitHub/guihub-Zaiweixiong/Mymaven/DesiredCapabilitiesBrowser1.jar</systemPath>
+       <systemPath>C:/GitHub/guihub-Zaiweixiong/Mymaven/DesiredCapabilitiesBrowser1.jar</systemPath>
   </dependency>
-
+  
+ 
   </dependencies>
 </project>

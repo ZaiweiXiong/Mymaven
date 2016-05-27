@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.org.learningMaven.HelloWorldTest" duration-ms="21936" started-at="2016-05-26T07:03:51Z" finished-at="2016-05-26T07:04:13Z">
+  <suite name="com.org.learningMaven.HelloWorldTest" duration-ms="21442" started-at="2016-05-27T02:52:55Z" finished-at="2016-05-27T02:53:16Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="21936" started-at="2016-05-26T07:03:51Z" finished-at="2016-05-26T07:04:13Z">
+    <test name="Command line test" duration-ms="21442" started-at="2016-05-27T02:52:55Z" finished-at="2016-05-27T02:53:16Z">
       <class name="com.org.learningMaven.HelloWorldTest">
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.org.learningMaven.HelloWorldTest@57829d67]" name="Login" duration-ms="21909" started-at="2016-05-26T15:03:51Z" finished-at="2016-05-26T15:04:13Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.org.learningMaven.HelloWorldTest@380fb434]" name="Login" duration-ms="21427" started-at="2016-05-27T10:52:55Z" finished-at="2016-05-27T10:53:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.org.learningMaven.HelloWorldTest@57829d67]" name="test" duration-ms="1" started-at="2016-05-26T15:04:13Z" finished-at="2016-05-26T15:04:13Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.org.learningMaven.HelloWorldTest@380fb434]" name="test" duration-ms="0" started-at="2016-05-27T10:53:16Z" finished-at="2016-05-27T10:53:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
