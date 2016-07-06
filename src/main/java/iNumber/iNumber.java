@@ -22,6 +22,7 @@ public class iNumber extends absI18N {
 	
 	static int issueNumber = 0;
 	static String language;
+	
 	static LinkedHashMap <String, Set<String>> map;
 	
 	public iNumber (String langauge) {
