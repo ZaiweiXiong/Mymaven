@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite tests="2" failures="0" name="com.org.learningMaven.HelloWorldTest" time="3.488" errors="0" skipped="0">
+=======
+<testsuite tests="2" failures="1" name="com.org.learningMaven.HelloWorldTest" time="0.516" errors="0" skipped="0">
+>>>>>>> origin/master
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\bin"/>
@@ -15,8 +19,13 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<<<<<<< HEAD
     <property name="user.dir" value="D:\GitHub\Mymaven"/>
     <property name="java.runtime.version" value="1.8.0_05-b13"/>
+=======
+    <property name="user.dir" value="C:\GitHub\guihub-Zaiweixiong\Mymaven"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+>>>>>>> origin/master
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\endorsed"/>
     <property name="os.arch" value="x86"/>
@@ -25,10 +34,17 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
+<<<<<<< HEAD
     <property name="os.name" value="Windows 8.1"/>
     <property name="classworlds.conf" value="D:\wrokProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3638892183466437809.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jdk1.8.0_05/bin/../jre/bin/client;C:/Program Files (x86)/Java/jdk1.8.0_05/bin/../jre/bin;C:/Program Files (x86)/Java/jdk1.8.0_05/bin/../jre/lib/i386;C:\Program Files (x86)\Java\jdk1.8.0_05\bin;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\bin;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Tomcat8\apache-tomcat-8.0.32\bin;D:\apache-maven-3.3.9\bin;C:\Users\David\.dnx\bin;D:\David‘s files\eclipse-standard-kepler-withMaven-SR1-win32\eclipse;;."/>
+=======
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\wrokProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6225282547846369744.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/CA/CA Desktop OTP Client/jre/bin/client;C:/Program Files (x86)/CA/CA Desktop OTP Client/jre/bin;C:/Program Files (x86)/CA/CA Desktop OTP Client/jre/lib/i386;C:\Program Files (x86)\CA\CA Desktop OTP Client\jre\bin;C:\Program Files (x86)\CA\SC\CAWIN\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CA\SC\Csam\SockAdapter\bin;C:\Program Files (x86)\CA\SC\CBB\;C:\Program Files (x86)\CA\DSM\bin;C:\PROGRA~2\CA\SC\CAM\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\CA\SC\Csam\SockAdapter\bin;C:\Program Files (x86)\CA\SC\Csam\SockAdapter\bin64;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\D disk\eclipse-standard-kepler-withMaven-SR1-win32\eclipse;;."/>
+>>>>>>> origin/master
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -52,7 +68,11 @@
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
+<<<<<<< HEAD
     <property name="maven.home" value="D:\GitHub\Mymaven\EMBEDDED"/>
+=======
+    <property name="maven.home" value="C:\GitHub\guihub-Zaiweixiong\Mymaven\EMBEDDED"/>
+>>>>>>> origin/master
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="maven.bootclasspath" value="/D:/David‘s files/eclipse-standard-kepler-withMaven-SR1-win32/eclipse/configuration/org.eclipse.osgi/bundles/280/1/.cp/jars/plexus-classworlds-2.4.jar"/>
@@ -61,6 +81,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
+<<<<<<< HEAD
   <testcase classname="com.org.learningMaven.HelloWorldTest" name="Login" time="3.011"/>
+=======
+  <testcase classname="com.org.learningMaven.HelloWorldTest" name="Login" time="0.015">
+    <failure message="com/DesiredCapabilitiesBrowser" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/DesiredCapabilitiesBrowser
+	at com.org.learningMaven.HelloWorldTest.Login(HelloWorldTest.java:17)
+Caused by: java.lang.ClassNotFoundException: com.DesiredCapabilitiesBrowser
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 34 more
+</failure>
+  </testcase>
+>>>>>>> origin/master
   <testcase classname="com.org.learningMaven.HelloWorldTest" name="test" time="0"/>
 </testsuite>

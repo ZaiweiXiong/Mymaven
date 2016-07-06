@@ -18,6 +18,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
+=======
+	<classpathentry kind="lib" path="C:/D disk/selenium/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/D disk/selenium/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/D disk/selenium/DesiredCapabilitiesBrowser1.jar"/>
+>>>>>>> origin/master
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
