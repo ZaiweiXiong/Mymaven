@@ -18,7 +18,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public abstract class absI18N {
 	
 	private Vector<Issue> issues = new Vector<Issue>();
-	
+	String iss = "";
 	public WebDriver driver;
 	public String outputPath;
 	public String symbol;
